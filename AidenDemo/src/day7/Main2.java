@@ -29,7 +29,9 @@ public class Main2 {
 		System.out.println(Arrays.binarySearch(ary, 77));
 		System.out.println(Arrays.binarySearch(ary, 44));
 		
-		//4.copy array
+		//4.copy array:copy the orginal array with a new length.
+		//if new length is shorter, get copy part of array from the beginning
+		//if new length is longer, get copy the whole array and fulfill the default value
 //		newArr = Arrays.copyOf(orignalArr, newLength)
 		int[] newArr1 = Arrays.copyOf(ary, 4);
 		System.out.println(Arrays.toString(newArr1));
@@ -37,8 +39,9 @@ public class Main2 {
 		System.out.println(Arrays.toString(newArr2));
 		
 		
-		//
-		
+		//define a method, call it insert
+		//it takes an integer sorted array and an integer number as arguments
+		//then insert this number at the correct position into this array
 		
 		
 //		newArr = Arrays.copyOfRange(originalAry, from, to)
