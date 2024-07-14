@@ -37,6 +37,8 @@ public class Main2 {
 		
 		//for each: don't care about index
 //		int[] ary = {11,22,33,44};
+//		list.clear();
+		System.out.println("---------");
 		for(Object e:list) {
 			System.out.println(e);
 		}
