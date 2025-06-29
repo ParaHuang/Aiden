@@ -4,6 +4,7 @@ import java.util.Random;
 
 public class StartForStudent {
 	public static void main(String[] args) {
+		/*
 		//initialize (class->student object)
 		//ClassName objectName = new ClassName();
 		Student stu1 = new Student();	//new->create
@@ -46,7 +47,7 @@ public class StartForStudent {
 		
 		stu2.study();
 		
-		
+		*/
 //		Random rd = new Random();
 	}
 }

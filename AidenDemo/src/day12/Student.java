@@ -91,5 +91,12 @@ public class Student {
 	public void exam(String subject) {
 		System.out.println("the student with id "+id+" is taking an "+subject+" exam");
 	}
+
+
+	@Override
+	public String toString() {
+		return "the id is :" + id + ", the name is " + name + ", age=" + age + ", gender=" + gender + ", cls=" + cls + "]";
+//		return "hello";
+	}
 	
 }

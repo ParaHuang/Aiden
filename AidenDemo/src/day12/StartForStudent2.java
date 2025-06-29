@@ -8,6 +8,9 @@ public class StartForStudent2 {
 
 		Student stu2 = new Student(1002,"Jack",17,"male","Art");
 		stu2.study();
+		
+		
+		System.out.println(stu1);
 	
 	}
 }
