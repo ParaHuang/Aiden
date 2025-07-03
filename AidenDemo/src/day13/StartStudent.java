@@ -32,9 +32,13 @@ public class StartStudent {
 		System.out.println(Math.pow(5, 3));
 		
 		
+		//create a method, call it Shape
+		//1.buildTriangle, 3 int parameters represents 3 sides
+		//to see if those sides can assemble a triangle
+		//if it can, print the peremeter of this triangle is ?
+		//otherwise, "invalid sides"
 		
-		
-		
+	
 		
 		
 		
