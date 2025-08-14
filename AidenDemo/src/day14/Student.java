@@ -18,7 +18,7 @@ public class Student extends Human{
 	public Student() {
 		//inside of SubClass, super refers to the object of SuperClass
 		//invisible code
-		super();	//calling the constructor of super class.first sentence
+		super();	//calling the constructor of super class.  first sentence
 //		super(5);
 		System.out.println("-----the constructor of Student-----");
 	}
