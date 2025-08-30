@@ -71,15 +71,18 @@ public class LoginFrame extends JFrame {
 		contentPane.add(btn2);
 		
 		//bind a listener
-		btn1.addActionListener(new ActionListener() {
-			
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				// whatever you want happen when you click the button , you write it here
-//				System.out.println("invalid account or password");
-				JOptionPane.showMessageDialog(LoginFrame.this, "invalid account or password");
-			}
-		});
+//		btn1.addActionListener(new ActionListener() {
+//			
+//			@Override
+//			public void actionPerformed(ActionEvent e) {
+//				// whatever you want happen when you click the button , you write it here
+////				System.out.println("invalid account or password");
+//				JOptionPane.showMessageDialog(LoginFrame.this, "invalid account or password");
+//			}
+//		});
+		
+		//bind a listener
+		btn1.addActionListener((e)->JOptionPane.showMessageDialog(LoginFrame.this, "invalid account or password"));
 		
 	}
 
