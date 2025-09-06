@@ -44,6 +44,10 @@ public class Test1 {
 			System.out.println("the parameter is "+a);
 		};
 		e1.test1(8);
+		
+//		E e2 = a->{
+//			
+//		};
 
 		F f1 = (int a,String b)->{
 			System.out.println("the parameter is "+a+" and "+b);
