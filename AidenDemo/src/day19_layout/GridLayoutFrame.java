@@ -60,7 +60,6 @@ public class GridLayoutFrame extends JFrame {
 			btns[i].setActionCommand(i+"");	//set up a mark
 			contentPane.add(btns[i]);
 //			int index = i;
-			
 			btns[i].addActionListener(e->{
 				//1.inside anonymous inner class,we can't use local variable,unless it's final
 				//2.in a higher java version,if you never change the value of a variable
