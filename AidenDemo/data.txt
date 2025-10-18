@@ -1,0 +1,4 @@
+1001,Jack,18,male,1.84
+1002,Tom,17,male,1.79
+1003,Jo,19,male,1.7
+1004,Alexande,18,female,1.67

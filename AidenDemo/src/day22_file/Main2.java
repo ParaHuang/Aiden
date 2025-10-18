@@ -22,9 +22,9 @@ public class Main2 {
 		//read content
 		
 		//1.create inputstream based on a certain file
-		InputStream in = new FileInputStream("/Users/parahuang/Downloads/happyFolder/a.txt");
+		InputStream in = new FileInputStream("/Users/parahuang/Downloads/happyFolder/hello.txt");
 		//2.read all content
-		byte[] bs = in.readAllBytes();
+		byte[] bs = in.readAllBytes();		//<100M
 		
 		//System.out.println(Arrays.toString(bs));//ASCII
 		String str = new String(bs);
